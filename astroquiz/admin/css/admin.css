@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-image: url(https://images.freeimages.com/images/large-previews/a0d/nebula-space-astro-photo-astronomy-sky-1420873.jpg);
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+}
+
+#header_logo {
+  font-family: 'Gugi', cursive;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.menu {
+  float: right;
+  padding-right: 40px;
+}
+
+
+.header_button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin-top: 8px;
+
+}
+
+.header_button:hover {
+  background-color:#f6f6f6;
+}
+
+.header_button:active {
+  position:relative;
+  top:1px;
+}
+
+.remove_button{
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:14px;
+  font-weight:bold;
+  padding:8px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin-top: 0px;
+
+}
+
+.remove_button:hover {
+  background-color:#f6f6f6;
+}
+
+.remove_button:active {
+  position:relative;
+  top:1px;
+}
+
+.welcome {
+  color: #888;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.adminpanel {
+  border-radius: 10px;
+  background-color: #000000;
+  text-align: center;
+  width: 500px;
+  margin: 30px auto 0;
+  padding: 50px;
+}
+
+.quepanel {
+  border-radius: 10px;
+  background-color: #eaeaea;
+  text-align: center;
+  width: 500px;
+  margin: 30px auto 0;
+  padding: 50px;
+  border: 3px solid #000000;
+}
+
+.admin_welcome {
+  color: #ffffff;
+}
+
+.main {
+  min-height: 83vh;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+.main > h1 {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: black;
+  height: 40px;
+}
+
+.footer_links {
+  height: 20px;
+  background-color: black;
+  font-family: Arial;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  float: right;
+  padding-right: 20px;
+
+}
+
+.footer_logo {
+  font-weight: 100;
+}
+
+.copyright {
+  background-color: #000000;
+  font-family: Arial;
+  font-weight: 100;
+  color: #7a7777;
+  text-align: left;
+  font-size: 10px;
+  float: left;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.success {
+  padding: 20px;
+}
+
+#admin_h1 {
+  color: white;
+}
+
+.adminlogin {
+  width: 300px;
+  height: 500px;
+  margin-left: 40vw;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  justify-content: center;
+  margin-bottom: 42px;
+  background-color: #ffffff;
+  opacity: 0.92;
+}
+
+.tbl_welcome {
+  padding-left: 68px;
+}
+
+.log_welcome {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #d6811a;
+  padding-top: 60px;
+}
+
+.form-field {
+  height: 46px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  outline: 0;
+  transition: .2s;
+  margin-top: 20px;
+}
+
+.form-field:focus {
+  border-color: #d6811a;
+}
+
+.form {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form > p {
+  text-align: left;
+}
+
+.form > p > a {
+  color: #000;
+  font-size: 14px;
+  color: #181818;
+  text-decoration: underline;
+}
+
+#loginsubmit {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, black 0%, green 100%);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  width: 200px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+#loginsubmit2 {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, black 0%, green 100%);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  width: 158px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+#loginsubmit:active {
+  border-color: #d6811a;
+}
+
+#register {
+  color: #181818;
+  text-decoration: underline;
+}
+
+input[type=text] {
+  width: 300px;
+}
+input[type=number] {
+  width: 300px;
+}
+
+.quelist {
+  padding-left: 50px;
+  width: 60vw;
+}
+
+#question_input {
+  width: 300px;
+}
+
+#qtable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+#qtable td, #qtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#qtable tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#qtable tr:hover {background-color: #ddd;}
+
+#qtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+#adminuser {
+  width: auto;
+}
+
+#space {
+  height: 70px;
+}
+
+
+
+

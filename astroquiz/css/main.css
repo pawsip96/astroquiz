@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: white;
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  height: 50px;
+}
+
+#header_logo {
+  font-family: 'Gugi', cursive;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  padding-left: 80px;
+}
+
+.menu {
+  float: right;
+  padding-right: 40px;
+}
+
+
+.header_button {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:8px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  margin-top: 8px;
+
+}
+
+.header_button:hover {
+  background-color:#f6f6f6;
+}
+
+.header_button:active {
+  position:relative;
+  top:1px;
+}
+
+.welcome {
+  color: #888;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.main {
+  min-height: 85vh;
+  margin-left: 10px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  height: 40px;
+  clear: both;
+}
+
+.footer_links {
+  height: 20px;
+  background-color: black;
+  font-family: Arial;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  float: right;
+  padding-right: 20px;
+
+}
+
+.footer_logo {
+  font-weight: 100;
+}
+
+.copyright {
+  background-color: #000000;
+  font-family: Arial;
+  font-weight: 100;
+  color: #7a7777;
+  text-align: left;
+  font-size: 10px;
+  float: left;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+a.sociallink {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  height: 89vh;
+}
+
+.left {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: left;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  height: auto;
+  width: 50%;
+}
+
+.left_test {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 40px;
+  height: 89vh;
+  width: 40vw;
+  float: left;
+  min-width: 430px;
+}
+
+.left_viewans {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 40px;
+  height: auto;
+  padding-bottom: 40px;
+  width: 40vw;
+  float: left;
+  min-width: 430px;
+}
+
+.right {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url(https://images.freeimages.com/images/large-previews/a0d/nebula-space-astro-photo-astronomy-sky-1420873.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  float: right;
+
+}
+
+.right_test {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 89vh;
+  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1447433865958-f402f562b843?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+  float: left;
+  width: 50vw;
+  position: absolute;
+  top: 50px;
+  left: 50vw;
+
+}
+
+.right_test > img {
+  width: 50vw;
+}
+
+.header > h2 {
+
+  margin: 0;
+  color: #d6811a;
+}
+
+.header > h4 {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(0,0,0,.4);
+}
+
+.form {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form > p {
+  text-align: left;
+}
+
+.form > p > a {
+  color: #000;
+  font-size: 14px;
+  color: #181818;
+  text-decoration: underline;
+}
+
+.form-field {
+  height: 46px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  outline: 0;
+  transition: .2s;
+  margin-top: 20px;
+}
+
+.form-field:focus {
+  border-color: #d6811a;
+}
+
+.form > button {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, black 0%, green 100%);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.nxt_que {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, black 0%, #d6811a);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  width: 200px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.segment {
+  padding-left: 10vw;
+}
+
+.background {
+  height: 89vh;
+  background-image: url(https://images.unsplash.com/photo-1447433865958-f402f562b843?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80);
+}
+
+.profile_window {
+  margin-bottom: 25vh;
+  width: 350px;
+  height: 400px;
+  margin-left: 40vw;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  justify-content: center;
+  background-color: #ffffff;
+  opacity: 0.92;
+}
+
+.profile_window > h1 {
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.profile_window > form {
+  padding-left: 20px;
+}
+
+#loginsubmit {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, black 0%, green 100%);
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  width: 200px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+#loginsubmit:active {
+  border-color: #d6811a;
+}
+
+#register {
+  color: #181818;
+  text-decoration: underline;
+}
+
+.test {
+  margin-left: 5vw;
+}
+
+.answear {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 50px;
+  width: 300px;
+  line-height: 50px;
+  vertical-align: middle;
+  border: 2px solid #a9a9a7;
+  border-radius: 25px;
+}
+
+.answear:hover {
+  border: 2px solid #d6811a;
+  background-color: #f5f5f5;
+}
+
+.answear input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.answear:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.answear input:checked ~ .checkmark {
+  background-color: #d6811a;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.answear input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.answear .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.animation {
+  animation-name: move;
+  animation-duration: .4s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+.viewans {
+  height: auto;
+}
+
+.a1 {
+  animation-delay: 2s;
+}
+
+.a2 {
+  animation-delay: 2.1s;
+}
+
+.a3 {
+  animation-delay: 2.2s;
+}
+
+.a4 {
+  animation-delay: 2.3s;
+}
+
+.a5 {
+  animation-delay: 2.4s;
+}
+
+.a6 {
+  animation-delay: 2.5s;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 100px;
+    width: 440px;
+  }
+}
